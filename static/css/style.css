@@ -1,0 +1,25 @@
+body{
+    color: #888888;
+    font-family: 'Bree Serif',serif;
+    font-size: 16px;
+    min-height: 2000px;
+}
+.form-group{position: relative;}
+
+ .navbar-custom {
+    background-color:#E36614;
+    color:#000000;
+    border-radius:0;
+    height:30px;
+    <!--width: 100px;-->
+}
+ .navbar-left{
+    margin-left:100px;
+ }
+ #search{
+      width: 500px;
+ }
+
+
+
+

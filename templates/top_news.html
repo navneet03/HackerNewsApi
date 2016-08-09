@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+     <script src="static/js/jquery-1.11.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Top News</title>
+     <link href="static/css/style.css" type="text/css" rel="stylesheet">
+     <link href="static/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+     <link href="static/css/top_news.css" type="text/css" rel="stylesheet">
+     <script src="static/js/top_news.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+               <h3>Hacker News</h3>
+        </div>
+
+         <ul class="nav navbar-left top-nav">
+              <h3>Current Top Trending Hacker News</h3>
+         </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav top-nav">
+                     <div class="form-inline">
+                         <input type="text" class="form-control" id="search" placeholder="Search by Title">
+                          <button type="submit" class="btn btn-default" id="submit" onclick="search_query()">Search</button>
+                          <button type="submit" class="btn btn-default" id="home" onclick="home()">Home</button>
+                    </div>
+                </ul>
+         </div>
+    </nav>
+    <div id="page-wrapper">
+
+            <div class="container-fluid">
+                <table class="table table-bordered" id="top_news_title">
+
+                </table>
+            </div>
+    </div>
+</div>
+</body>
+</html>
