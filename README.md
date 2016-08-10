@@ -33,7 +33,7 @@ Your task, should you choose to accept it, is: create a web-based application wh
  
  **Backend:** Python 2.7, Django 1.9.8, DjangoRestFramework
  
- **Database:** MongoDB(mongoengine ORM)
+ **Database:** MongoDB(mongoengine ODM)
  
 ##Application Overview:
 
